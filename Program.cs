@@ -1,32 +1,24 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+namespace Fernando
 {
-    static double Pi = 3.14; 
-    static void Main(string[] args)
+    class Program
     {
-        System.Console.Write("Informe o valor do raio: ");
-        double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        static void Main(string[] args)
+        {
 
-        double circ = Circunferencia(raio);
+            Calculadora calc = new Calculadora();
 
-        System.Console.WriteLine($"Circunferência: {circ.ToString("F2", CultureInfo.InvariantCulture)}");
+            System.Console.Write("Informe o valor do raio: ");
+            double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        double volume = Volume(raio);
+            double circ = Calculadora.Circunferencia(raio);
+            double volume = Calculadora.Volume(raio);
 
-        System.Console.WriteLine($"Volume: {volume.ToString("F2", CultureInfo.InvariantCulture)}");
-
-        System.Console.WriteLine($"Valor de Pi: {Pi.ToString("F2", CultureInfo.InvariantCulture)}");
-    }
-
-    static double Circunferencia(double r)
-    {
-        return 2 * Pi * r;
-    }
-
-    static double Volume(double r)
-    {
-        return 4.0 / 3.0 * Pi * Math.Pow(r, 3.0);
+            System.Console.WriteLine($"Circunferência: {circ.ToString("F2", CultureInfo.InvariantCulture)}");
+            System.Console.WriteLine($"Volume: {volume.ToString("F2", CultureInfo.InvariantCulture)}");
+            System.Console.WriteLine($"Valor de Pi: {Calculadora.Pi.ToString("F2", CultureInfo.InvariantCulture)}");
+        }
     }
 }
