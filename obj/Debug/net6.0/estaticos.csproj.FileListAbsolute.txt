@@ -1,0 +1,15 @@
+C:\Users\ferna\Documents\Projetos\estaticos\bin\Debug\net6.0\estaticos.exe
+C:\Users\ferna\Documents\Projetos\estaticos\bin\Debug\net6.0\estaticos.deps.json
+C:\Users\ferna\Documents\Projetos\estaticos\bin\Debug\net6.0\estaticos.runtimeconfig.json
+C:\Users\ferna\Documents\Projetos\estaticos\bin\Debug\net6.0\estaticos.dll
+C:\Users\ferna\Documents\Projetos\estaticos\bin\Debug\net6.0\estaticos.pdb
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.csproj.AssemblyReference.cache
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.AssemblyInfo.cs
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.dll
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\refint\estaticos.dll
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.pdb
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\estaticos.genruntimeconfig.cache
+C:\Users\ferna\Documents\Projetos\estaticos\obj\Debug\net6.0\ref\estaticos.dll
